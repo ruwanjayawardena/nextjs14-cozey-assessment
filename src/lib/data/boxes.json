@@ -1,0 +1,30 @@
+[
+    {
+        "id": "box_01",
+        "name": "Valentines Box",
+        "products": [
+            "pro_01",
+            "pro_02",
+            "pro_03",
+            "pro_04"
+        ]
+    },
+    {
+        "id": "box_02",
+        "name": "Birthday Box",
+        "products": [
+            "pro_05",
+            "pro_06",
+            "pro_07"
+        ]
+    },
+    {
+        "id": "box_03",
+        "name": "Client Gift Box",
+        "products": [
+            "pro_08",
+            "pro_09",
+            "pro_10"
+        ]
+    }
+]

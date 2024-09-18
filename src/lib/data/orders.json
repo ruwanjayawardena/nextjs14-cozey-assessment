@@ -1,0 +1,250 @@
+[
+    {
+        "order_id": "2001",
+        "order_total": 11.96,
+        "order_date": "2024-09-17",
+        "timestamps": 1726613416000,
+        "shipping_address": "123 Apple St, Vancouver, BC, Canada",
+        "customer_name": "Alice Johnson",
+        "customer_email": "alice.johnson@example.com",        
+        "line_items": [
+            {
+                "line_item_id": "1",
+                "box_id": "box_01",
+                "box_name": "Valentines Box",
+                "products": [
+                    {
+                        "product_id": "pro_01",
+                        "product_name": "Red Roses Bouquet",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_02",
+                        "product_name": "Box of chocolates",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_03",
+                        "product_name": "Love card",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_04",
+                        "product_name": "Women’s perfume",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "order_id": "2002",
+        "order_total": 8.97,
+        "order_date": "2024-09-17",
+        "timestamps": 1726613416000,
+        "shipping_address": "456 Maple St, Toronto, ON, Canada",
+        "customer_name": "Bob Williams",
+        "customer_email": "bob.williams@example.com",
+        "line_items": [
+            {
+                "line_item_id": "1",
+                "box_id": "box_02",
+                "box_name": "Birthday Box",
+                "products": [
+                    {
+                        "product_id": "pro_05",
+                        "product_name": "Birthday cupcake",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_06",
+                        "product_name": "$100 Visa Gift Card",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_07",
+                        "product_name": "Birthday card",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "order_id": "2003",
+        "order_total": 17.94,
+        "order_date": "2024-09-17",
+        "timestamps": 1726613416000,
+        "shipping_address": "789 Pine Rd, Ottawa, ON, Canada",
+        "customer_name": "Charlie Brown",
+        "customer_email": "charlie.brown@example.com",
+        "line_items": [
+            {
+                "line_item_id": "1",
+                "box_id": "box_01",
+                "box_name": "Valentines Box",
+                "products": [
+                    {
+                        "product_id": "pro_01",
+                        "product_name": "Red Roses Bouquet",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_02",
+                        "product_name": "Box of chocolates",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_03",
+                        "product_name": "Love card",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_04",
+                        "product_name": "Women’s perfume",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    }
+                ]
+            },
+            {
+                "line_item_id": "2",
+                "box_id": "box_03",
+                "box_name": "Client Gift Box",
+                "products": [
+                    {
+                        "product_id": "pro_08",
+                        "product_name": "Bottle of wine",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_09",
+                        "product_name": "Fruit basket",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_10",
+                        "product_name": "Pen",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "order_id": "2004",
+        "order_total": 8.97,
+        "order_date": "2024-09-16",
+        "timestamps": 1726527016000,
+        "shipping_address": "101 Oak Ave, Calgary, AB, Canada",
+        "customer_name": "David Green",
+        "customer_email": "david.green@example.com",
+        "line_items": [
+            {
+                "line_item_id": "1",
+                "box_id": "box_03",
+                "box_name": "Client Gift Box",
+                "products": [
+                    {
+                        "product_id": "pro_08",
+                        "product_name": "Bottle of wine",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_09",
+                        "product_name": "Fruit basket",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_10",
+                        "product_name": "Pen",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "order_id": "2005",
+        "order_total": 23.92,
+        "order_date": "2024-09-16",
+        "timestamps": 1726527016000,
+        "shipping_address": "202 Birch St, Winnipeg, MB, Canada",
+        "customer_name": "Eve Davis",
+        "customer_email": "eve.davis@example.com",
+        "line_items": [
+            {
+                "line_item_id": "1",
+                "box_id": "box_01",
+                "box_name": "Valentines Box",
+                "products": [
+                    {
+                        "product_id": "pro_01",
+                        "product_name": "Red Roses Bouquet",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_02",
+                        "product_name": "Box of chocolates",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_03",
+                        "product_name": "Love card",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_04",
+                        "product_name": "Women’s perfume",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    }
+                ]
+            },
+            {
+                "line_item_id": "2",
+                "box_id": "box_02",
+                "box_name": "Birthday Box",
+                "products": [
+                    {
+                        "product_id": "pro_05",
+                        "product_name": "Birthday cupcake",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_06",
+                        "product_name": "$100 Visa Gift Card",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    },
+                    {
+                        "product_id": "pro_07",
+                        "product_name": "Birthday card",
+                        "qty": 1,
+                        "unit_price": 2.99
+                    }
+                ]
+            }
+        ]
+    }
+]

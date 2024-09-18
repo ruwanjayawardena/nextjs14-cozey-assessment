@@ -1,0 +1,72 @@
+[
+    {
+        "id": "pro_01",
+        "name": "Red Roses Bouquet",
+        "sku": "red_roses_bouquet",
+        "qty": 100,
+        "unit_price": 2.99
+    },
+    {
+        "id": "pro_02",
+        "name": "Box of chocolates",
+        "sku": "box_of_chocolates",
+        "qty": 100,
+        "unit_price": 2.99
+    },
+    {
+        "id": "pro_03",
+        "name": "Love card",
+        "sku": "love_card",
+        "qty": 100,
+        "unit_price": 2.99
+    },
+    {
+        "id": "pro_04",
+        "name": "Women’s perfume",
+        "sku": "womens_perfume",
+        "qty": 100,
+        "unit_price": 2.99
+    },
+    {
+        "id": "pro_05",
+        "name": "Birthday cupcake",
+        "sku": "birthday_cupcake",
+        "qty": 100,
+        "unit_price": 2.99
+    },
+    {
+        "id": "pro_06",
+        "name": "$100 Visa Gift Card",
+        "sku": "100_visa_gift_card",
+        "qty": 100,
+        "unit_price": 2.99
+    },
+    {
+        "id": "pro_07",
+        "name": "Birthday card",
+        "sku": "birthday_card",
+        "qty": 100,
+        "unit_price": 2.99
+    },
+    {
+        "id": "pro_08",
+        "name": "Bottle of wine",
+        "sku": "bottle_of_wine",
+        "qty": 100,
+        "unit_price": 2.99
+    },
+    {
+        "id": "pro_09",
+        "name": "Fruit basket",
+        "sku": "fruit_basket",
+        "qty": 100,
+        "unit_price": 2.99
+    },
+    {
+        "id": "pro_10",
+        "name": "Pen",
+        "sku": "pen",
+        "qty": 100,
+        "unit_price": 2.99
+    }
+]
