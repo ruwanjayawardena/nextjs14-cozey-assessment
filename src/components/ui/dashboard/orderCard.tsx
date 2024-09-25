@@ -22,21 +22,26 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 
-import { useState } from "react";
+// import { useState } from "react";
 import { Orders, OrderProduct, OrderLineItem, Order } from "@/lib/types";
+import useStore from '@/lib/store';
 
 export default function OrderCard({orders}: Orders | any) {
 
-  const [hiddenCards, setHiddenCards] = useState<string[]>([]);
+  const hiddenCards = useStore((state) => state.hiddenCards);
+  const setHiddenCards = useStore((state) => state.setHiddenCards);
 
-  const handleButtonClick = (index: number, order_id:string) => {
-    setHiddenCards((prevState) => [...prevState, order_id]);
+  // const [hiddenCards, setHiddenCards] = useState<string[]>([]);
+
+  const handleButtonClick = (order_id:string) => {   
+    setHiddenCards(order_id);
+    // setHiddenCards((prevState) => [...prevState, order_id]);
   };
 
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
-        {orders.map((card: Order, index: number) => (
+        {orders.map((card: Order) => (
           <Card
             key={card.order_id}
             className={`w-[350px] shadow-md rounded-lg p-6 ${
@@ -97,7 +102,7 @@ export default function OrderCard({orders}: Orders | any) {
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>No</AlertDialogCancel>
-                    <AlertDialogAction onClick={() => handleButtonClick(index,card.order_id)}>
+                    <AlertDialogAction onClick={() => handleButtonClick(card.order_id)}>
                       Yes
                     </AlertDialogAction>
                   </AlertDialogFooter>

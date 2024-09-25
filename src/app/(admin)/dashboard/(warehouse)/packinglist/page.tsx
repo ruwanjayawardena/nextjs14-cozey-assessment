@@ -5,12 +5,14 @@ import OrderCard from "@/components/ui/dashboard/orderCard";
 import { useToast } from "@/hooks/use-toast";
 import DatePicker from "@/components/ui/datepicker";
 import { Button } from "@/components/ui/button";
+import useStore from '@/lib/store';
 
 export default function PackingList() {
   const { toast } = useToast();
   const [selectedDate, setSelectedDate] = useState<Date>();
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(false);
+  const refreshHiddenCards = useStore((state) => state.refreshHiddenCards);
 
   const handleReportGeneraterBtn = async () => {
     try {
@@ -53,12 +55,13 @@ export default function PackingList() {
         <h4 className="scroll-m-20 text-xl font-semibold tracking-tight underline underline-offset-8">
           Product Picking List
         </h4>
-        <div className="mt-3">
+        <div className="mt-3 flex flex-row">
           <DatePicker onDataChange={setSelectedDate}>
             <Button onClick={handleReportGeneraterBtn}>
               Custom Generate Report
             </Button>
           </DatePicker>
+          <Button variant={"outline"} onClick={refreshHiddenCards}>Refresh</Button>
         </div>
       </div>
       <div className="w-full">
@@ -68,7 +71,7 @@ export default function PackingList() {
             by clicking button.
           </p>
         )}
-        {isLoading && data && <OrderCard orders={data} />}
+        {isLoading && data && <OrderCard orders={data}/>}
       </div>
     </>
   );
